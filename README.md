@@ -5,7 +5,7 @@ It provides an interactive medical assistant experience via a clean Gradio-based
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Large Language Models (LLMs) such as Mistral-7B can be adapted to specialized tasks.
 In this work, we fine-tuned **Mistral-7B** to behave as a **medical assistant chatbot**
@@ -15,7 +15,7 @@ The final model is deployed with an interactive chat interface using **Gradio**.
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 - Fine-tuning of **Mistral-7B** in the medical domain  
 - Parameter-Efficient Fine-Tuning using **LoRA**  
@@ -25,7 +25,7 @@ The final model is deployed with an interactive chat interface using **Gradio**.
 
 ---
 
-## 🧠 Model Used
+## Model Used
 
 - **Base Model:** Mistral-7B (Open-source LLM)
 - **Fine-tuning Method:** LoRA (PEFT)
@@ -33,14 +33,14 @@ The final model is deployed with an interactive chat interface using **Gradio**.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 A public medical Question/Answer dataset from Hugging Face was used: https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards
 
 
 ---
 
-## ⚙️ Tools & Libraries
+## Tools & Libraries
 
 | Tool / Library | Role |
 |--------------|------|
@@ -54,7 +54,7 @@ A public medical Question/Answer dataset from Hugging Face was used: https://hug
 
 ---
 
-## 🚀 Training Process
+## Training Process
 
 The fine-tuning was performed using supervised learning (SFT):
 
